@@ -56,5 +56,18 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Schemas" />
+    <Folder Include="Scripts" />
+    <Folder Include="Schemas\data_quality" />
+    <Folder Include="Schemas\zcreateSchema" />
+    <Folder Include="Schemas\data_quality\Functions" />
+    <Folder Include="Schemas\data_quality\Tables" />
+    <Folder Include="Schemas\data_quality\Stored Procedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schemas\data_quality.sql" />
   </ItemGroup>
 </Project>

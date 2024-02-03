@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f0586b63-6dfa-424a-a383-2d31fbb56dcb" ChangeDateTime="02/03/2024 19:44:47">
+    <Property Name="ElementName" Value="[data_quality].[DataQualitySource].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data_quality].[DataQualitySource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DatsQualitySourceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6352ef65-b4f2-4fe3-9a26-c7980a8a4fd1" ChangeDateTime="02/03/2024 19:45:30">
+    <Property Name="ElementName" Value="[data_quality].[DataQualitySource].[DatsQualitySourceId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data_quality].[DataQualitySource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DataQualitySourceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1d879c1-f3e9-4f05-937c-5724c0f5601b" ChangeDateTime="02/03/2024 19:56:38">
+    <Property Name="ElementName" Value="[data_quality].[DataQualitySourceDataset].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data_quality].[DataQualitySourceDataset]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DataQualitySourceDatasetId" />
+  </Operation>
+</Operations>
